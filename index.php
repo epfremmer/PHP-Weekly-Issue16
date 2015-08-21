@@ -51,4 +51,4 @@ echo fread($randomPointer, 50) . PHP_EOL; // outputs 50 random characters
 echo fread($randomPointer, 50) . PHP_EOL; // outputs 50 random characters
 echo fread($randomPointer, 1) . PHP_EOL; // outputs empty string because max random characters of 100 was exceeded
 
-echo round(microtime(true) * 1000) - $start . PHP_EOL; // output execution time (milliseconds)
+echo sprintf('Total runtime: %s ms', round(microtime(true) * 1000) - $start) . PHP_EOL; // output execution time (milliseconds)
