@@ -1,0 +1,19 @@
+{
+    "name": "epfremme/issue_16",
+    "description": "Write a PHP class that implements a custom Stream Wrapper for generating random strings.",
+    "type": "challenge",
+    "autoload": {
+        "psr-4": { "PHPWeekly\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.0",
+        "paquettg/php-html-parser": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "epfremme",
+            "email": "epfremme@nerdery.com"
+        }
+    ]
+}
